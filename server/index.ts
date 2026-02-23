@@ -4,6 +4,7 @@ import { serveStatic } from "./static";
 import { createServer } from "http";
 import session from "express-session";
 import MemoryStore from "memorystore";
+import "dotenv/config";
 
 const app = express();
 const httpServer = createServer(app);
